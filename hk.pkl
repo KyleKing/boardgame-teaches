@@ -1,0 +1,61 @@
+// Install with `hk install --mise` (typst tooling is mise-managed; mdformat runs via uvx)
+
+amends "package://github.com/jdx/hk/releases/download/v1.54.0/hk@1.54.0#/Config.pkl"
+
+import "package://github.com/jdx/hk/releases/download/v1.54.0/hk@1.54.0#/Builtins.pkl"
+
+min_hk_version = "1.54.0"
+
+// exports/ archives the original design-session drafts verbatim
+exclude = List("exports/**")
+
+local linters = new Mapping<String, Step> {
+  ["check-added-large-files"] = Builtins.check_added_large_files
+  ["check-merge-conflict"] = Builtins.check_merge_conflict
+  ["check-symlinks"] = Builtins.check_symlinks
+  ["mdformat"] {
+    glob = "*.md"
+    check =
+      "uvx --with mdformat-footnote --with mdformat-gfm --with mdformat-toc mdformat --check {{files}}"
+    fix = "uvx --with mdformat-footnote --with mdformat-gfm --with mdformat-toc mdformat {{files}}"
+  }
+  ["mixed-line-ending"] = Builtins.mixed_line_ending
+  ["newlines"] = Builtins.newlines
+  ["pkl-format"] = Builtins.pkl_format
+  ["taplo"] = Builtins.taplo
+  ["trailing-whitespace"] = Builtins.trailing_whitespace
+  ["typos"] {
+    check = "typos {{files}}"
+    fix = "typos --write-changes {{files}}"
+  }
+  ["typstyle"] {
+    glob = "*.typ"
+    check = "typstyle --check {{files}}"
+    fix = "typstyle -i {{files}}"
+  }
+}
+
+local commit_msg_checks = new Mapping<String, Step> {
+  ["check-conventional-commit"] = Builtins.check_conventional_commit
+}
+
+hooks {
+  ["pre-commit"] {
+    fix = true
+    stash = "git"
+    steps = linters
+  }
+  ["pre-push"] {
+    steps = linters
+  }
+  ["commit-msg"] {
+    steps = commit_msg_checks
+  }
+  ["fix"] {
+    fix = true
+    steps = linters
+  }
+  ["check"] {
+    steps = linters
+  }
+}

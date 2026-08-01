@@ -1,0 +1,31 @@
+[tasks.build]
+description = "Compile every teach sheet to out/"
+run = "for f in teaches/*/*.typ; do typst compile --root . \"$f\" \"out/$(basename \"$f\" .typ).pdf\"; done"
+sources = ['teaches/**/*.typ', 'template/*.typ']
+outputs = ['out/*.pdf']
+
+[tasks.format]
+description = "Format Typst, markdown, and TOML sources"
+run = [
+  "typstyle format-all teaches template",
+  "uvx --with mdformat-footnote --with mdformat-gfm --with mdformat-toc mdformat README.md docs",
+  "taplo format mise.toml",
+]
+
+[tasks.pre-push]
+depends = ["format", "spell", "build"]
+description = "Run all checks before pushing"
+
+[tasks.spell]
+description = "Spell-check all sources with typos"
+run = "typos"
+
+[tasks.watch]
+description = "Watch one game and recompile on save, e.g. mise run watch wavelength"
+run = 'game="{{arg(name="game")}}" && typst watch --root . "teaches/$game/$game.typ" "out/$game.pdf"'
+
+[tools]
+taplo = "latest"
+typos = "latest"
+typst = "0.14"
+typstyle = "latest"

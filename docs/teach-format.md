@@ -60,8 +60,12 @@ Pax Pamir needs all three.
 
 ## Expansions are keyed patches
 
-An expansion sheet lists edits keyed to the base teach's stable spine numbers
-("replace step 2", "insert after step 4"), never an appended page.
+An expansion sheet lists edits keyed to the base teach's stable spine numbers,
+never an appended page.
+Three markers:
+`+4a` inserts a new beat after step 4, `~4` amends step 4, and `=4` replaces
+it.
+A provenance marker distinguishes ◆ official from ◇ fan-made material.
 Pantheon amends 7W Duel's setup, so an appended page would teach a setup that
 never happens.
 Patches don't compose automatically either:
@@ -71,13 +75,16 @@ against.
 
 ## Print pipeline
 
-Markdown is the source of truth.
-Typst does layout, either through Pandoc (`--to=typst --pdf-engine=typst`) or a
-native template defining `say()`, `do()`, `branch()`, `rule()`, `exception()`,
-and `patch()` as styled functions.
+Typst is the source of truth.
+`template/teach.typ` defines `beat()`, `say()`, `do()`, `branch()`, `rule()`,
+`exception()`, `strategy()`, and `patch()` as styled functions, and each game
+in `teaches/<game>/` imports it.
+Native Typst won over markdown-plus-Pandoc because the content types carry
+semantics (verbatim vs beat vs branch) that markdown flattens.
 
-Imposition is a separate post-process, so one set of logical panels can become
-any fold style:
+Panels are half-letter (5.5 × 8.5 in), so printing two-up on a duplex letter
+sheet gives a half-fold booklet with no imposition tooling.
+For other fold styles, impose the PDF afterward:
 `pdfimpose` names fold schemas directly, and `pdfjam --booklet true` covers the
 half-fold.
 The consequence for authoring is a fixed panel budget per game rather than

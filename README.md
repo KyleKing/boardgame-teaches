@@ -52,33 +52,43 @@ The working principles:
 
 ## Layout
 
-- `teaches/<game>/` holds the markdown source for each game, plus an `images/`
-  folder and any expansion patches
+- `teaches/<game>/<game>.typ` is the source for each game, plus any expansion
+  patch files
+- `template/teach.typ` defines the styled functions (`beat`, `say`, `do`,
+  `branch`, `rule`, `exception`, `strategy`, `patch`) and the low-ink page
+  setup
 - `docs/teach-format.md` defines the format:
   content types, conventions, sheet scaling, and the print pipeline
+- `exports/` keeps the original markdown drafts from the design session
 - Generated PDFs land in `out/` and stay untracked
 
-Markdown is the source of truth.
-Layout and imposition are a build step, not part of authoring, so the same text
-can come out as a half-fold booklet, a quad-fold card, or a flat reference
-sheet.
-See [docs/teach-format.md](docs/teach-format.md).
+Typst is the authoring format because the content types carry semantics that
+plain markdown can't hold.
+Panels are half-letter, so a duplex letter sheet imposes to a half-fold
+booklet.
+Tooling runs through mise and hk (`hk install --mise` once per clone):
+
+```sh
+mise run build            # compile every game to out/
+mise run watch wavelength # recompile one game on save
+mise run format           # typstyle + mdformat + taplo
+mise run spell            # typos
+```
 
 ## Games
 
-| Game | Status |
-| --- | --- |
-| Decrypto | drafted in chat, needs import |
-| Looot | drafted in chat, needs import and scorepad base values |
-| Pax Pamir 2e | drafted in chat (three sheets), needs import |
-| Risk:
-Europe | drafted in chat, needs import and 3-player crown target |
-| Wavelength | drafted in chat, needs import |
-| 7 Wonders Duel | expansion patch format sketched, line items unverified |
+| Game           | Status                                                      |
+| -------------- | ----------------------------------------------------------- |
+| Decrypto       | final, ready for a table test                               |
+| Looot          | final, pencil in the scorepad base values                   |
+| Pax Pamir 2e   | final, three sheets                                         |
+| Risk Europe    | final, needs the 3-player crown target from the rulebook    |
+| Wavelength     | final, ready for a table test                               |
+| 7 Wonders Duel | patch keying final, line items unverified against my copies |
 
-Drafts live in
+The original drafts are archived in `exports/`, from
 [this design session](https://claude.ai/chat/2e675106-c0ba-4515-a109-102028308202)
-until imported.
+with the finalized versions now in `teaches/`.
 
 ## Sources
 
