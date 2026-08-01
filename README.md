@@ -60,6 +60,9 @@ The working principles:
 - `docs/teach-format.md` defines the format:
   content types, conventions, sheet scaling, and the print pipeline
 - `exports/` keeps the original markdown drafts from the design session
+- `research/` holds the numbered research chapters behind the format:
+  pedagogy, script styles, history, video teaches, interactive teaching, and
+  the evaluation rubric
 - Generated PDFs land in `out/` and stay untracked
 
 Typst is the authoring format because the content types carry semantics that
