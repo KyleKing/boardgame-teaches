@@ -1,0 +1,162 @@
+title = "7 Wonders Duel"
+meta = "patches keyed to the base spine · +N insert after step N · ~N amend step N · =N replace step N"
+caveat = "The line items above are illustrative, drawn from secondary sources; verify each against your own copies before printing. The keying convention is the deliverable, and its lesson is that patches don't compose: a rule can exist only at the intersection of two modules, so a patch sheet needs its own combination section listing the combinations you actually own."
+
+verified_combinations = [
+  [
+  ],
+  [
+    "pantheon",
+  ],
+  [
+    "solo",
+  ],
+  [
+    "solo",
+    "pantheon",
+  ],
+  [
+    "solo",
+    "agora",
+  ],
+  [
+    "solo",
+    "pantheon",
+    "agora",
+  ],
+]
+
+[[modules]]
+id = "pantheon"
+name = "Pantheon"
+provenance = "official"
+players = [1, 2]
+
+[[modules]]
+id = "agora"
+name = "Agora"
+provenance = "official"
+players = [1, 2]
+
+[[modules]]
+id = "solo"
+name = "Solo"
+provenance = "fan"
+players = [1]
+
+[[blocks]]
+kind = "beat"
+key = "1"
+title = "Goal"
+body = "Three ways to win: military advance, six science symbols, or most points at the end of Age III."
+
+[[blocks.children]]
+kind = "note"
+when = { players = [2] }
+body = "The branch here isn't player count, it's which modules are on the table. Resolve that once at setup, then read a fixed path."
+
+[[blocks]]
+kind = "beat"
+key = "2"
+title = "Setup"
+body = "Wonders draft, three age decks, progress tokens."
+
+[[blocks]]
+kind = "beat"
+key = "3"
+title = "The card pyramid"
+body = "Take an uncovered card, then build it, discard it for coins, or bury it under a wonder."
+
+[[blocks]]
+kind = "beat"
+key = "4"
+title = "Age transition"
+body = "Who chooses first, and how the next pyramid is laid out."
+
+[[blocks]]
+kind = "beat"
+key = "5"
+title = "Scoring"
+body = "Only reached if nobody won by military or science."
+
+[[blocks]]
+kind = "patch"
+op = "amend"
+target = "2"
+when = { modules_all = ["pantheon"] }
+body = "Setup changes, not adds: mythology tokens and offerings enter the age setups. This patches step 2 rather than appending a step. Stapled to the end, it would teach a setup that never happens."
+
+[[blocks]]
+kind = "patch"
+op = "insert"
+target = "3"
+key = "3a"
+when = { modules_all = ["pantheon"] }
+title = "The divinities row"
+body = "A parallel economy with its own currency and its own timing."
+
+[[blocks]]
+kind = "patch"
+op = "replace"
+target = "1"
+when = { modules_all = ["solo"] }
+title = "Goal"
+body = "You play against a Leader with scripted behaviour, not an opponent making choices."
+
+[[blocks.children]]
+kind = "note"
+body = "Worth saying at the table: the solo mode is a fan print-and-play built around Leaders and Decision cards, not an official mode. Well-regarded, but a player asking \"is this how the designer intended it?\" deserves a straight answer."
+
+[[blocks]]
+kind = "patch"
+op = "insert"
+target = "2"
+key = "2a"
+when = { modules_all = ["solo"] }
+title = "Choose your opponent"
+body = "Pick a Leader."
+
+[[blocks]]
+kind = "patch"
+op = "replace"
+target = "3"
+when = { modules_all = ["solo"] }
+title = "The card pyramid"
+body = "The opponent's turn is driven by Decision cards rather than decisions. A replacement, not an amendment: the core loop is different."
+
+[[blocks]]
+kind = "patch"
+op = "insert"
+target = "2"
+key = "2a′"
+when = { modules_all = ["solo", "pantheon"] }
+title = "More Leaders"
+body = "Three additional Leaders as opponents (Caligula, Sappho, Imhotep), using progress tokens and extra turns. #gap[fan rules PDF]"
+
+[[blocks]]
+kind = "patch"
+op = "amend"
+target = "2a"
+when = { modules_all = ["solo", "pantheon"] }
+body = "Some Decision cards are updated when Pantheon is in. #gap[fan rules PDF]"
+
+[[blocks]]
+kind = "patch"
+op = "amend"
+target = "2a"
+when = { modules_all = ["solo", "agora"] }
+body = "No new Leaders: Agora's progress tokens have no effect for the Leader. Base and Pantheon Leaders still interact with the senate and decrees. #gap[fan rules PDF]"
+
+[[blocks]]
+kind = "patch"
+op = "amend"
+target = "2a"
+when = { modules_all = ["solo", "agora"] }
+body = "The Leader's turn gains senator cards and influence cubes via Decision cards. #gap[fan rules PDF]"
+
+[[blocks]]
+kind = "patch"
+op = "amend"
+target = "2"
+when = { modules_all = ["solo", "pantheon", "agora"] }
+body = "Merge the Decision cards from both expansions: 3 with the Pantheon icon, 5 with the Agora icon, 4 with none. #gap[fan rules PDF]"

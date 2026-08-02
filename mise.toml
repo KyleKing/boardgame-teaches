@@ -7,9 +7,9 @@ outputs = ['out/*.pdf']
 [tasks.format]
 description = "Format Typst, markdown, and TOML sources"
 run = [
-  "typstyle format-all teaches template",
+  "typstyle -i teaches template",
   "uvx --with mdformat-footnote --with mdformat-gfm --with mdformat-toc mdformat README.md docs",
-  "taplo format mise.toml",
+  "taplo format mise.toml 'teaches/*/*.toml'",
 ]
 
 [tasks.pre-push]

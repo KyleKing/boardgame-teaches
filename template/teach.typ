@@ -46,10 +46,13 @@
 }
 
 // A numbered beat: the spine of the teach. Title is said your own way.
-#let beat(title, body) = {
-  beat-counter.step()
+// An explicit key opts out of the counter, for spines whose numbers are stable
+// identifiers that expansion patches key against.
+#let beat(title, body, key: none) = {
+  if key == none { beat-counter.step() }
   block(above: 10pt, below: 4pt, {
-    context text(weight: "bold", size: 10.5pt)[#beat-counter.display() ▸ #title]
+    let label = if key == none { context beat-counter.display() } else { key }
+    text(weight: "bold", size: 10.5pt)[#label ▸ #title]
   })
   body
 }

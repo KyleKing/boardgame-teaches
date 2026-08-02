@@ -57,6 +57,9 @@ The working principles:
 - `template/teach.typ` defines the styled functions (`beat`, `say`, `do`,
   `branch`, `rule`, `exception`, `strategy`, `patch`) and the low-ink page
   setup
+- `template/render.typ` renders a `<game>.toml` data file, either as the paper
+  view or as one path resolved for a player count and module list.
+  7 Wonders Duel is the worked example; see `docs/interactive-delivery.md`
 - `docs/teach-format.md` defines the format:
   content types, conventions, sheet scaling, and the print pipeline
 - `exports/` keeps the original markdown drafts from the design session
