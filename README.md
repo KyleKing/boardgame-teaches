@@ -8,7 +8,7 @@ Board Game Arena tutorials teach a learner sitting alone at a screen, and videos
 teach passively.
 None of them help the person standing at the table who has to get four people
 playing in ten minutes, and almost nobody publishes that script.
-So I'm writing my own, starting with Looot, Risk: Europe, Wavelength, Decrypto, and Pax Pamir 2e.
+So I'm writing my own, starting with Looot, Long Shot: The Dice Game, Risk: Europe, Wavelength, Decrypto, and Pax Pamir 2e.
 
 ## What a Teach optimizes for
 
@@ -84,7 +84,8 @@ mise run spell            # typos
 | Game           | Status                                                      |
 | -------------- | ----------------------------------------------------------- |
 | Decrypto       | final, ready for a table test                               |
-| Looot          | final, pencil in the scorepad base values                   |
+| Long Shot      | draft, needs the odds column and bet cap from the rulebook  |
+| Looot          | final, watchtower chaining through a tower is unconfirmed   |
 | Pax Pamir 2e   | final, three sheets                                         |
 | Risk Europe    | final, needs the 3-player crown target from the rulebook    |
 | Wavelength     | final, ready for a table test                               |
