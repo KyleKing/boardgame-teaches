@@ -114,26 +114,15 @@ ______________________________________________________________________
 
 | Situation | Ruling |
 |---|---|
-| Dial lands on a line between wedges | Psychic's team takes the **higher**
-value |
-| Psychic's team hits the bullseye (4) | Other team scores **nothing**, even
-with a correct left/right bet |
-| Dial exactly on target centre | No paradox — it's a bullseye, so the rule
-above covers it |
-| 4 points scored *and still behind* | Immediate extra turn, **different
-psychic**.
-Can chain — 9–1 is winnable |
-| Dial misses the target entirely | Other team still collects their left/right
-point |
-| Psychic hates the spectrum | Either side of the card is fair game.
-One redraw allowed, but only *before* the spin |
-| Team deadlocks on the dial | Tiebreaker decides — nominate next round's
-psychic at setup |
-| Both teams cross 10 in one round | Play another round until someone is clearly
-ahead |
-| Timer | None in the box.
-Add 1 min psychic / 2 min team only if one specific person stalls |
-| 2–3 players | Drop the left/right phase, play fully co-op for a group high
-score |
+| Dial lands on a line between wedges | Psychic's team takes the **higher** value |
+| Psychic's team hits the bullseye (4) | Other team scores **nothing**, even with a correct left/right bet |
+| Dial exactly on target centre | No paradox — it's a bullseye, so the rule above covers it |
+| 4 points scored *and still behind* | Immediate extra turn, **different psychic**. Can chain — 9–1 is winnable |
+| Dial misses the target entirely | Other team still collects their left/right point |
+| Psychic hates the spectrum | Either side of the card is fair game. One redraw allowed, but only *before* the spin |
+| Team deadlocks on the dial | Tiebreaker decides — nominate next round's psychic at setup |
+| Both teams cross 10 in one round | Play another round until someone is clearly ahead |
+| Timer | None in the box. Add 1 min psychic / 2 min team only if one specific person stalls |
+| 2–3 players | Drop the left/right phase, play fully co-op for a group high score |
 
 **First to 10 wins.**

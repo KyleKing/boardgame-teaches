@@ -54,14 +54,10 @@ ______________________________________________________________________
 
 | Pairing | What it's for |
 |---|---|
-| **Tax → Spend** | The economy round.
-Your default round 1 |
+| **Tax → Spend** | The economy round. Your default round 1 |
 | **Spend → Expand** | Buy the stack, then push it out immediately |
-| **Expand → Expand** | Double land grab.
-Fast, but you earn nothing and fight next round broke |
-| **Expand → Manoeuvre** | Attack, then reinforce the disputed territory before
-the battle resolves.
-Legal and strong — you can manoeuvre *into* a dispute, never out |
+| **Expand → Expand** | Double land grab. Fast, but you earn nothing and fight next round broke |
+| **Expand → Manoeuvre** | Attack, then reinforce the disputed territory before the battle resolves. Legal and strong — you can manoeuvre *into* a dispute, never out |
 | **Manoeuvre → Expand** | Consolidate a big stack, then hit with all of it |
 | **Tax → Expand** | Bank income while grabbing an empty city |
 
@@ -151,45 +147,22 @@ ______________________________________________________________________
 
 | Situation | Ruling |
 |---|---|
-| Expanding into an occupied territory | It becomes **disputed**.
-Battle resolves at end of round.
-No retreating, ever |
-| Expanding into a castle territory | Not allowed unless your expanding army
-includes a **Siege Weapon** |
-| Third player wants into a dispute | Forbidden, for any reason.
-Only two armies per disputed territory |
-| Expanding out of your own disputed territory | Only the **defender** may, and
-must leave units equal to the attacker's count |
-| Manoeuvring out of a dispute | Never.
-Committed units cannot retreat |
-| Manoeuvre range | Up to 2 territories, through your own supply lines.
-Stops immediately on entering a disputed territory |
-| Leaving a territory empty | Fine for non-city territories.
-City and castle territories must keep 1 unit |
-| Tax and disputes | Disputed territories pay nothing **and sever supply
-lines**, potentially splitting your kingdom.
-Pick which city you tax carefully |
-| Castle in a disputed territory | Defender re-rolls all dice of one rank, each
-time the ranked order repeats |
-| Both armies wiped out simultaneously | Territory becomes unclaimed, crowns
-return to the reserve |
-| Buying units | Only into city or castle territories you control, never into a
-dispute |
-| Castles | Can't be destroyed, only captured.
-One per territory.
-When the reserve runs out, no more get built |
-| Crown cards | One purchase per player per round, even with two Spend orders.
-Only 8 exist |
-| King Me bonus | Whoever reveals it takes the First Player Marker; last one to
-reveal it that round keeps it and starts the next |
-| Siege Assault bonus | 2 dice per Siege Weapon, hits on 3+, **no defence
-dice**.
-Land only, not from or into disputes |
-| Fortify bonus | +3 footmen to a city or +4 to a castle you control.
-In a dispute, only if you're defending |
+| Expanding into an occupied territory | It becomes **disputed**. Battle resolves at end of round. No retreating, ever |
+| Expanding into a castle territory | Not allowed unless your expanding army includes a **Siege Weapon** |
+| Third player wants into a dispute | Forbidden, for any reason. Only two armies per disputed territory |
+| Expanding out of your own disputed territory | Only the **defender** may, and must leave units equal to the attacker's count |
+| Manoeuvring out of a dispute | Never. Committed units cannot retreat |
+| Manoeuvre range | Up to 2 territories, through your own supply lines. Stops immediately on entering a disputed territory |
+| Leaving a territory empty | Fine for non-city territories. City and castle territories must keep 1 unit |
+| Tax and disputes | Disputed territories pay nothing **and sever supply lines**, potentially splitting your kingdom. Pick which city you tax carefully |
+| Castle in a disputed territory | Defender re-rolls all dice of one rank, each time the ranked order repeats |
+| Both armies wiped out simultaneously | Territory becomes unclaimed, crowns return to the reserve |
+| Buying units | Only into city or castle territories you control, never into a dispute |
+| Castles | Can't be destroyed, only captured. One per territory. When the reserve runs out, no more get built |
+| Crown cards | One purchase per player per round, even with two Spend orders. Only 8 exist |
+| King Me bonus | Whoever reveals it takes the First Player Marker; last one to reveal it that round keeps it and starts the next |
+| Siege Assault bonus | 2 dice per Siege Weapon, hits on 3+, **no defence dice**. Land only, not from or into disputes |
+| Fortify bonus | +3 footmen to a city or +4 to a castle you control. In a dispute, only if you're defending |
 | Card you can't use | Still discards at end of round |
-| Two players reach 7+ crowns together | Most territories wins, then most coins.
-First Player Marker counts as 10 coins for that tiebreak |
-| Player loses all cities | One grace round to retake one if they hold a crown
-card, otherwise eliminated.
-No taxing meanwhile |
+| Two players reach 7+ crowns together | Most territories wins, then most coins. First Player Marker counts as 10 coins for that tiebreak |
+| Player loses all cities | One grace round to retake one if they hold a crown card, otherwise eliminated. No taxing meanwhile |

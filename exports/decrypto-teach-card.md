@@ -135,26 +135,16 @@ ______________________________________________________________________
 
 | Situation | Ruling |
 |---|---|
-| Round 1 | Neither team may intercept.
-No information exists yet |
-| Interception timing | Opponents commit and reveal **before** the active team
-guesses |
-| Wrong interception | No penalty.
-Interception is a free roll every round |
+| Round 1 | Neither team may intercept. No information exists yet |
+| Interception timing | Opponents commit and reveal **before** the active team guesses |
+| Wrong interception | No penalty. Interception is a free roll every round |
 | Own team guesses right | No reward — you simply avoid the token |
 | Encryptor | Rotates every round within the team |
 | Both teams hit 2 interceptions in the same round | Tiebreak, below |
-| One team hits 2 interceptions *and* 2 miscommunications | Also a tiebreak —
-you can win and lose at once |
+| One team hits 2 interceptions *and* 2 miscommunications | Also a tiebreak — you can win and lose at once |
 | Tiebreak | Interception +1, Miscommunication −1, higher total wins |
-| Still tied | Each team names the opponent's four keywords.
-Most correct wins |
+| Still tied | Each team names the opponent's four keywords. Most correct wins |
 | Nobody has won by round 8 | Note sheet is full — go to the tiebreak above |
-| Timer | Sand timer is in the box.
-Use it on the Encryptor, not on the guessers |
-| 3 players | 2 vs 1.
-The solo Interceptor takes a token when the pair miscommunicates, and must reach
-2 tokens within 5 rounds or the pair wins |
-| Odd player counts | Uneven teams are fine.
-The larger team is arguably disadvantaged — more voices to talk each other out
-of the right answer |
+| Timer | Sand timer is in the box. Use it on the Encryptor, not on the guessers |
+| 3 players | 2 vs 1. The solo Interceptor takes a token when the pair miscommunicates, and must reach 2 tokens within 5 rounds or the pair wins |
+| Odd player counts | Uneven teams are fine. The larger team is arguably disadvantaged — more voices to talk each other out of the right answer |

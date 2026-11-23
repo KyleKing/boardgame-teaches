@@ -50,14 +50,8 @@ ______________________________________________________________________
 | Building | How |
 |---|---|
 | **House** | Place a Viking adjacent to it → take 1 tile |
-| **Watchtower** | Connect **two** watchtowers with a chain of *your* Vikings →
-1 tile for **each**.
-Recapturable, but only by connecting to a **different** watchtower |
-| **Castle** | Chain **4+** of your Vikings with at least one adjacent to a
-castle → 1 tile.
-**8** in the chain → a second.
-**12** → a third.
-Each extra tile needs a genuinely longer chain |
+| **Watchtower** | Connect **two** watchtowers with a chain of *your* Vikings → 1 tile for **each**. Recapturable, but only by connecting to a **different** watchtower |
+| **Castle** | Chain **4+** of your Vikings with at least one adjacent to a castle → 1 tile. **8** in the chain → a second. **12** → a third. Each extra tile needs a genuinely longer chain |
 
 ______________________________________________________________________
 
@@ -139,31 +133,17 @@ ______________________________________________________________________
 
 | Situation | Ruling |
 |---|---|
-| Your Fjord is full | You still must place Vikings, but you **cannot take any
-more tiles**.
-Watch for this — it can arrive early and quietly |
-| Placing next to an opponent's Viking | Always legal.
-Any colour counts for adjacency |
-| Placing adjacent to a Longship | Legal — the Ocean board counts as adjacency
-for placement |
+| Your Fjord is full | You still must place Vikings, but you **cannot take any more tiles**. Watch for this — it can arrive early and quietly |
+| Placing next to an opponent's Viking | Always legal. Any colour counts for adjacency |
+| Placing adjacent to a Longship | Legal — the Ocean board counts as adjacency for placement |
 | Occupied resource space | Can't place there, unless you spend a Shield |
 | Resource reserve runs out | Take whatever remains |
-| Capturing the same watchtower twice | Only by connecting it to a **different**
-watchtower |
-| Second and third castle tiles | Require a **longer** chain each time — 8, then
-12.
-Not a repeat of the same chain |
-| Longship selection | One per turn, at end of turn.
-Draw a replacement into the Ocean immediately |
-| Filling a Longship | The 3 shown resources must be **adjacent** to it on your
-Fjord.
-Flip it for the bonus |
+| Capturing the same watchtower twice | Only by connecting it to a **different** watchtower |
+| Second and third castle tiles | Require a **longer** chain each time — 8, then 12. Not a repeat of the same chain |
+| Longship selection | One per turn, at end of turn. Draw a replacement into the Ocean immediately |
+| Filling a Longship | The 3 shown resources must be **adjacent** to it on your Fjord. Flip it for the bonus |
 | Unfilled Longship | **−5 each** at game end |
-| Construction sites | Required resources and buildings adjacent in any
-arrangement, then flip |
-| Trophy | Needs at least as many **Axes** as shown.
-**One per player per game**, no exceptions |
-| Tiles placed on your Fjord | Never move again.
-Ever |
-| Tie at game end | Highest-value Trophy wins.
-No trophy on either side → shared victory |
+| Construction sites | Required resources and buildings adjacent in any arrangement, then flip |
+| Trophy | Needs at least as many **Axes** as shown. **One per player per game**, no exceptions |
+| Tiles placed on your Fjord | Never move again. Ever |
+| Tie at game end | Highest-value Trophy wins. No trophy on either side → shared victory |

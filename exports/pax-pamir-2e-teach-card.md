@@ -160,32 +160,17 @@ ______________________________________________________________________
 
 | Situation | Ruling |
 |---|---|
-| Lose your last **tribe** in a region | Immediately discard **all your
-political cards** from that region |
-| Lose your last **political card** of a region | Immediately remove **all your
-tribes** from that region |
-| Discarding a **Leveraged** card | Pay 2 rupees, or discard 1 card per rupee
-you can't pay |
+| Lose your last **tribe** in a region | Immediately discard **all your political cards** from that region |
+| Lose your last **political card** of a region | Immediately remove **all your tribes** from that region |
+| Discarding a **Leveraged** card | Pay 2 rupees, or discard 1 card per rupee you can't pay |
 | Card with a spy gets discarded | Spies return to their owners' supplies |
-| Court over the limit at end of turn | Discard down to 3 + political stars.
-Same for hand at 2 + intelligence stars |
-| Changing loyalty | Lose all gifts and prizes.
-Patriots return.
-Playing a patriot of another coalition **forces** the change |
-| Ruling a region | Most pieces there.
-Enemy coalition armies can block you from taking the ruler token |
-| Tax | Always available against the market.
-Against a *player* only if you rule a region where they hold a court card — and
-their economic stars shield their rupees |
-| Build | Only in regions you rule.
-**2 rupees per unit**, paid to the market |
-| Action costs | Paid onto the **rightmost** cards of both market rows, 1 rupee
-each.
-Any card you put a rupee on is unbuyable this turn |
+| Court over the limit at end of turn | Discard down to 3 + political stars. Same for hand at 2 + intelligence stars |
+| Changing loyalty | Lose all gifts and prizes. Patriots return. Playing a patriot of another coalition **forces** the change |
+| Ruling a region | Most pieces there. Enemy coalition armies can block you from taking the ruler token |
+| Tax | Always available against the market. Against a *player* only if you rule a region where they hold a court card — and their economic stars shield their rupees |
+| Build | Only in regions you rule. **2 rupees per unit**, paid to the market |
+| Action costs | Paid onto the **rightmost** cards of both market rows, 1 rupee each. Any card you put a rupee on is unbuyable this turn |
 | Market runs short of cards for payment | Excess rupees leave the game |
-| Event card reaches the leftmost column | Discarded during cleanup and its
-**top** effect hits everyone.
-Bottom effect only fires if a player buys it |
-| Rupees on a discarded event | Stay in that position and transfer to whatever
-card slides in |
+| Event card reaches the leftmost column | Discarded during cleanup and its **top** effect hits everyone. Bottom effect only fires if a player buys it |
+| Rupees on a discarded event | Stay in that position and transfer to whatever card slides in |
 | Final tiebreak | Most military stars, then most rupees |
