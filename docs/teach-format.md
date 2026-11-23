@@ -29,8 +29,7 @@ A Teach has three content types, and they should look different on the page:
 Sort the exceptions by when they fire.
 Decrypto's genuine exceptions are all endgame-only, so a during-play block above
 a scoring block works.
-Risk:
-Europe and Pax Pamir fire exceptions mid-game, so they group by phase.
+Risk: Europe and Pax Pamir fire exceptions mid-game, so they group by phase.
 Let the sort follow the game rather than forcing one scheme.
 
 ## Conventions

@@ -17,12 +17,9 @@ ______________________________________________________________________
 
 | Marker | Meaning |
 |---|---|
-| **+4a** | **Insert.** A new beat, slotted after step 4.
-Spine numbering unchanged |
-| **~4** | **Amend.** Step 4 still happens, but with this line added or changed
-|
-| **=4** | **Replace.** Step 4 is void.
-Read this instead |
+| **+4a** | **Insert.** A new beat, slotted after step 4. Spine numbering unchanged |
+| **~4** | **Amend.** Step 4 still happens, but with this line added or changed |
+| **=4** | **Replace.** Step 4 is void. Read this instead |
 
 ## Provenance marker
 
